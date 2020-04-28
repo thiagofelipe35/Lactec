@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HistoricoClimatologico", "HistoricoClimatologico\HistoricoClimatologico.csproj", "{E764E3D2-DBFF-4A73-930A-20CB69C47B34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{D21BEFDA-0190-4AE9-B700-C9A825CDEBCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HistoricoClimatologico.Interfaces.Repository", "HistoricoClimatologico.Interfaces.Repository\HistoricoClimatologico.Interfaces.Repository.csproj", "{BB778011-25C8-4C27-B8F3-272EA6A1C9FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{F05175D9-13F9-4252-8063-C38384C42B9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HistoricoClimatologico.Database", "HistoricoClimatologico.Database\HistoricoClimatologico.Database.csproj", "{81367609-6DD2-4F76-A09E-2AB47EAC03E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HistoricoClimatologico.Repository", "HistoricoClimatologico.Repository\HistoricoClimatologico.Repository.csproj", "{47F6E416-2826-411D-AA7E-ACABCFD09401}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E764E3D2-DBFF-4A73-930A-20CB69C47B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E764E3D2-DBFF-4A73-930A-20CB69C47B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E764E3D2-DBFF-4A73-930A-20CB69C47B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E764E3D2-DBFF-4A73-930A-20CB69C47B34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB778011-25C8-4C27-B8F3-272EA6A1C9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB778011-25C8-4C27-B8F3-272EA6A1C9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB778011-25C8-4C27-B8F3-272EA6A1C9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB778011-25C8-4C27-B8F3-272EA6A1C9FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81367609-6DD2-4F76-A09E-2AB47EAC03E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81367609-6DD2-4F76-A09E-2AB47EAC03E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81367609-6DD2-4F76-A09E-2AB47EAC03E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81367609-6DD2-4F76-A09E-2AB47EAC03E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F6E416-2826-411D-AA7E-ACABCFD09401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F6E416-2826-411D-AA7E-ACABCFD09401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F6E416-2826-411D-AA7E-ACABCFD09401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F6E416-2826-411D-AA7E-ACABCFD09401}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB778011-25C8-4C27-B8F3-272EA6A1C9FB} = {D21BEFDA-0190-4AE9-B700-C9A825CDEBCD}
+		{81367609-6DD2-4F76-A09E-2AB47EAC03E8} = {F05175D9-13F9-4252-8063-C38384C42B9E}
+		{47F6E416-2826-411D-AA7E-ACABCFD09401} = {D21BEFDA-0190-4AE9-B700-C9A825CDEBCD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32B15E21-1E73-4D7F-998E-765100C01783}
+	EndGlobalSection
+EndGlobal
